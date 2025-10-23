@@ -4,7 +4,7 @@ import random
 import math
 import os
 
-grid_size = 6
+grid_size = 3
 
 class GameState:
     def __init__(self, state: Optional[list[list[int]]] = None, grid_size: int = grid_size):
