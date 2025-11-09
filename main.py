@@ -4,10 +4,8 @@ import random
 import math
 import os
 
-grid_size = 3
-
 class GameState:
-    def __init__(self, state: Optional[list[list[int]]] = None, grid_size: int = grid_size):
+    def __init__(self, state: Optional[list[list[int]]] = None, grid_size: int = 3):
         self.grid_size = grid_size
         self.state = state
         self.idx_to_label = {0: "   ", 1: " X ", 2: " O "}
